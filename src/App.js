@@ -10,6 +10,8 @@ import Condition from './components/2-8-ConditionRender/Condition';
 import List from './components/2-9-list/List';
 import Form from './components/2-10-form/Form';
 import UnControl from './components/2-10-form/UnControl';
+import State from './components/3-3.hook/State';
+import Reducer from './components/3-3.hook/Reducer';
 
 function App() {
   return (
@@ -33,6 +35,9 @@ function App() {
       <Form />
 
       <UnControl />
+
+      <State />
+      <Reducer />
     </div>
   );
 }
