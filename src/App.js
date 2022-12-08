@@ -12,34 +12,30 @@ import Form from './components/2-10-form/Form';
 import UnControl from './components/2-10-form/UnControl';
 import State from './components/3-3.hook/State';
 import Reducer from './components/3-3.hook/Reducer';
+import WelcomeDialog from './components/3-5-Composition/WelcomeDialog';
+import ThankyouDialog from './components/3-6-Composition2/ThankyouDialog';
 
 function App() {
-  return (
-    <div className="App">
-
-      <ClassComponent />
-
-      <ClassComponent2 />
-      <FunctionComponent />
-      <Composition name="jim" />
-      <Composition name="jim" />
-      <Composition name="jim" />
-      <Extraction />
-
-      <Event />
-
-      <Condition />
-
-      <List />
-
-      <Form />
-
-      <UnControl />
-
-      <State />
-      <Reducer />
-    </div>
-  );
+	return (
+		<div className='App'>
+			<ClassComponent />
+			<ClassComponent2 />
+			<FunctionComponent />
+			<Composition name='jim' />
+			<Composition name='jim' />
+			<Composition name='jim' />
+			<Extraction />
+			<Event />
+			<Condition />
+			<List />
+			<Form />
+			<UnControl />
+			<State />
+			<Reducer />
+			<WelcomeDialog />
+			<ThankyouDialog />
+		</div>
+	);
 }
 
 export default App;
