@@ -14,6 +14,8 @@ import State from './components/3-3.hook/State';
 import Reducer from './components/3-3.hook/Reducer';
 import WelcomeDialog from './components/3-5-Composition/WelcomeDialog';
 import ThankyouDialog from './components/3-6-Composition2/ThankyouDialog';
+import Input from './components/3-7-Hoc/Input';
+import Button from './components/3-7-Hoc/Button';
 
 function App() {
 	return (
@@ -34,6 +36,9 @@ function App() {
 			<Reducer />
 			<WelcomeDialog />
 			<ThankyouDialog />
+
+			<Input />
+			<Button />
 		</div>
 	);
 }
