@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 export default function hocLoading(Component) {
-	const HocLoading = (props) => {
+	const HocLoading = props => {
 		const [loading, setLoading] = useState(true);
 
 		useEffect(() => {
@@ -10,7 +10,7 @@ export default function hocLoading(Component) {
 			return () => clearTimeout(loadingTimer);
 		}, []);
 
-		return loading ? <p>loading</p> : <Component {...props} />;
+		return loading ? <p>loading </p> : <Component {...props} />;
 	};
 
 	return HocLoading;

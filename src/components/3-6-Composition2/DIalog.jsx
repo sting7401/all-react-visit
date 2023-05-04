@@ -4,7 +4,7 @@ export default function DIalog2(props) {
 	const [isOpen, setIsOpen] = useState(false);
 	return (
 		<>
-			<button type='button' onClick={() => setIsOpen(true)}>
+			<button type="button" onClick={() => setIsOpen(true)}>
 				open
 			</button>
 
@@ -35,7 +35,7 @@ export default function DIalog2(props) {
 
 					{typeof props.close === 'string' ? (
 						<button
-							type='button'
+							type="button"
 							style={{ backgroundColor: 'red' }}
 							onClick={() => setIsOpen(false)}
 						>
